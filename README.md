@@ -130,7 +130,7 @@ await blob.DeleteIfExistsAsync();
 <br/>
 <br/>
 
-## Exercise 5 - Delete blob
+## Exercise 5 - Delete all blobs
 Prerequisites:
 - Exercise 2
 
@@ -138,7 +138,7 @@ Task:
 - Implement missing part of the ```DeleteAllAsync``` method in the ```AzureBlobService.cs``` file
 
 Useful links:
-- [list blobs](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.storage.blob.cloudblobcontainer.listblobssegmentedasync?view=azure-dotnet-legacy#Microsoft_Azure_Storage_Blob_CloudBlobContainer_ListBlobsSegmentedAsync_Microsoft_Azure_Storage_Blob_BlobContinuationToken_)view=azure-dotnet-legacy#Microsoft_Azure_Storage_Blob_CloudBlobContainer_GetBlockBlobReference_System_String_)
+- [list blobs](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.storage.blob.cloudblobcontainer.listblobssegmentedasync?view=azure-dotnet-legacy#Microsoft_Azure_Storage_Blob_CloudBlobContainer_ListBlobsSegmentedAsync_Microsoft_Azure_Storage_Blob_BlobContinuationToken_)
 - [delete block blob](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.storage.blob.cloudblob.deleteifexistsasync?view=azure-dotnet-legacy#Microsoft_Azure_Storage_Blob_CloudBlob_DeleteIfExistsAsync)
   
 <details>
