@@ -158,3 +158,10 @@ do
 } while (blobContinuationToken != null);
 ```
 </details>
+
+
+# Run the application
+- Go to ```AzureBlobLearning/AzureBlobLearning/AzureBlobLearning```.
+- Run ```dotnet build```.
+- Run ```dotnet run```.
+- In web browser open the <https://localhost:5001>
